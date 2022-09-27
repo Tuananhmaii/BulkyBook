@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BulkyBookWeb.Areas.Admin
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
